@@ -22,17 +22,8 @@ export default function UpdateOldPatient({socket}) {
    };
 
 
-
    async function submitOrder(values){
       setLoading(true)
-
-      //^ Socket Send Notification :
-      socket.emit("sendNotification" , {
-         sender:loggedUser.email ,
-         type:"addOrder"
-      })
-
-
       let response = await axios.post(`${process.env.REACT_APP_BASE_URL}/api/v1/order/orderLoggedUser` , values , {headers:header})
       .catch((error)=>{
          setError(error.response.data.message)
@@ -47,11 +38,11 @@ export default function UpdateOldPatient({socket}) {
          setLoading(false)
          navigate(`/sendInvoice/${response.data.add_Invoice_Order._id}`)
 
-         // //^ Socket Send Notification :
-         // socket.emit("sendNotification" , {
-         //    sender:loggedUser.email ,
-         //    type:"addOrder"
-         // })
+         //^ Socket Send Notification :
+         socket.emit("sendNotification" , {
+            sender:loggedUser.email ,
+            type:"addOrder"
+         })
       }
    }
 
@@ -248,7 +239,7 @@ export default function UpdateOldPatient({socket}) {
                   {loading? 
                      <button className="btn bg-main text-white btn-lg mt-2 w-50 m-auto"><i class="fa fa-spinner fa-spin text-white fa-1x"></i></button>
                      : 
-                     <button disabled={!(formik.isValid && formik.dirty)} type="submit" className="btn bg-main text-white btn-lg mt-2">Send Data</button>
+                     <button disabled={!(formik.isValid && formik.dirty)}  type="submit" className="btn bg-main text-white btn-lg mt-2">Send Data</button>
                   }
                </div>
                

@@ -83,7 +83,7 @@ export default function SpecificCompany() {
                               <th scope="row">Logo:</th>
 
                               <td className='text-center'>
-                                 <img src={company.logo} className='w-50' alt={company.name} />
+                                 <img src={company.logo?.secure_url} className='w-50' alt={company.name} />
                               </td>
                            </tr>
 

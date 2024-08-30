@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Fekrah_Medical_Front-End/static/css/main.119e23bb.css",
+    "main.js": "/Fekrah_Medical_Front-End/static/js/main.719fb90d.js",
+    "static/js/453.06220fc4.chunk.js": "/Fekrah_Medical_Front-End/static/js/453.06220fc4.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Fekrah_Medical_Front-End/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/home-page.png": "/Fekrah_Medical_Front-End/static/media/home-page.fa1b1d525649c7ed4846.png",
+    "static/media/fa-brands-400.ttf": "/Fekrah_Medical_Front-End/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/share.png": "/Fekrah_Medical_Front-End/static/media/share.1c7e23e02f395e84f47d.png",
+    "static/media/fa-solid-900.woff2": "/Fekrah_Medical_Front-End/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/profile1.png": "/Fekrah_Medical_Front-End/static/media/profile1.0bea8beab8cdf8189dc2.png",
+    "static/media/fa-brands-400.woff2": "/Fekrah_Medical_Front-End/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/order section.jpg": "/Fekrah_Medical_Front-End/static/media/order section.0f2b430a55690a49054a.jpg",
+    "static/media/fa-regular-400.ttf": "/Fekrah_Medical_Front-End/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/7835563.png": "/Fekrah_Medical_Front-End/static/media/7835563.9c088c239a901c350b82.png",
+    "static/media/approved.webp": "/Fekrah_Medical_Front-End/static/media/approved.4c2256f2e315ad92f535.webp",
+    "static/media/fa-regular-400.woff2": "/Fekrah_Medical_Front-End/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Fekrah_Medical_Front-End/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/notFound.png": "/Fekrah_Medical_Front-End/static/media/notFound.dc22d125d11035096278.png",
+    "static/media/profile.webp": "/Fekrah_Medical_Front-End/static/media/profile.3571bdfce63ad3cdab4a.webp",
+    "static/media/fa-v4compatibility.woff2": "/Fekrah_Medical_Front-End/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "static/media/slick.svg": "/Fekrah_Medical_Front-End/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Fekrah_Medical_Front-End/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Fekrah_Medical_Front-End/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Fekrah_Medical_Front-End/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Fekrah_Medical_Front-End/index.html",
+    "main.119e23bb.css.map": "/Fekrah_Medical_Front-End/static/css/main.119e23bb.css.map",
+    "main.719fb90d.js.map": "/Fekrah_Medical_Front-End/static/js/main.719fb90d.js.map",
+    "453.06220fc4.chunk.js.map": "/Fekrah_Medical_Front-End/static/js/453.06220fc4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.119e23bb.css",
+    "static/js/main.719fb90d.js"
+  ]
+}

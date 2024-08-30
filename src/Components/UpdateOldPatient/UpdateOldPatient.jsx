@@ -25,6 +25,14 @@ export default function UpdateOldPatient({socket}) {
 
    async function submitOrder(values){
       setLoading(true)
+
+      //^ Socket Send Notification :
+      socket.emit("sendNotification" , {
+         sender:loggedUser.email ,
+         type:"addOrder"
+      })
+
+
       let response = await axios.post(`${process.env.REACT_APP_BASE_URL}/api/v1/order/orderLoggedUser` , values , {headers:header})
       .catch((error)=>{
          setError(error.response.data.message)
@@ -39,11 +47,11 @@ export default function UpdateOldPatient({socket}) {
          setLoading(false)
          navigate(`/sendInvoice/${response.data.add_Invoice_Order._id}`)
 
-         //^ Socket Send Notification :
-         socket.emit("sendNotification" , {
-            sender:loggedUser.email ,
-            type:"addOrder"
-         })
+         // //^ Socket Send Notification :
+         // socket.emit("sendNotification" , {
+         //    sender:loggedUser.email ,
+         //    type:"addOrder"
+         // })
       }
    }
 

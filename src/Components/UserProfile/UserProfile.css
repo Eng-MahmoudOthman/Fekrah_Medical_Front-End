@@ -1,0 +1,18 @@
+
+
+.imgCoverProfile {
+   width: 180px ;
+   height: 180px;
+   padding: 0px;
+   border-radius: 50%;
+   overflow: hidden;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+
+.imgCoverProfile img {
+   width: 100%;
+   cursor: pointer;
+}

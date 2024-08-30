@@ -1,0 +1,56 @@
+
+
+.notificationAdmin {
+   position: absolute;
+   font-size: 14px ;
+   top: 50px;
+   right: 0;
+   background: rgb(215, 213, 213);
+   color: black;
+   font-weight: 300;
+   padding: 10px;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+.notification_admin {
+   min-width: 18px;
+   min-height: 18px;
+   font-size: 8px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--second-color);
+   color: rgb(0, 0, 0);
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   top: -8px;
+   right: -10px;
+}
+.notificationAdmin .notification-box{
+   width: 300px;
+   max-height: 400px;
+   overflow: auto;
+}
+
+.notificationAdmin .exist_Notification{
+   cursor: pointer;
+   padding: 5px 10px;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+.notificationAdmin .exist_Notification:hover{
+   background-color: red;
+   color: white !important;
+}
+

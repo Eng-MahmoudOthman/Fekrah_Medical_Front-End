@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fekrah_Medical_Front-End/static/css/main.119e23bb.css",
-    "main.js": "/Fekrah_Medical_Front-End/static/js/main.b3f0c261.js",
+    "main.js": "/Fekrah_Medical_Front-End/static/js/main.0b618ab9.js",
     "static/js/453.06220fc4.chunk.js": "/Fekrah_Medical_Front-End/static/js/453.06220fc4.chunk.js",
     "static/media/fa-solid-900.ttf": "/Fekrah_Medical_Front-End/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/home-page.png": "/Fekrah_Medical_Front-End/static/media/home-page.fa1b1d525649c7ed4846.png",
@@ -25,11 +25,11 @@
     "static/media/slick.woff": "/Fekrah_Medical_Front-End/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Fekrah_Medical_Front-End/index.html",
     "main.119e23bb.css.map": "/Fekrah_Medical_Front-End/static/css/main.119e23bb.css.map",
-    "main.b3f0c261.js.map": "/Fekrah_Medical_Front-End/static/js/main.b3f0c261.js.map",
+    "main.0b618ab9.js.map": "/Fekrah_Medical_Front-End/static/js/main.0b618ab9.js.map",
     "453.06220fc4.chunk.js.map": "/Fekrah_Medical_Front-End/static/js/453.06220fc4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.119e23bb.css",
-    "static/js/main.b3f0c261.js"
+    "static/js/main.0b618ab9.js"
   ]
 }

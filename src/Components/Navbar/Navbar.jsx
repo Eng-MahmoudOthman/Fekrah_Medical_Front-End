@@ -37,6 +37,7 @@ export default function Navbar({socket}){
       
    }
 
+console.log(notification);
 
 
    //& Handle Log Out :

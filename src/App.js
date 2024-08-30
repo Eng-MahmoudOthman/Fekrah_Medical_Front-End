@@ -53,7 +53,8 @@ import ShareWebsite from './Components/ShareWebsite/ShareWebsite.jsx';
 import io from "../node_modules/socket.io/client-dist/socket.io.js"
 import AddUserAdmin from './Components/DashBoard/AddUserAdmin/AddUserAdmin.jsx';
 import UpdateUserRole from './Components/DashBoard/UpdateUserRole/UpdateUserRole.jsx';
-const socket = io("http://localhost:5000") ;
+const socket = io(process.env.REACT_APP_BASE_URL) ;
+// const socket = io("http://localhost:5000") ;
 
 
 

@@ -399,8 +399,8 @@ export default function SpecificOrder({socket}) {
                <div className='text-center'>
                   <a href={orderDetails.invoice_pdf}  className='btn btn-outline-dark btn-sm ' target='_blank' >Download Invoice <i class="fa-solid fa-print ms-4"></i></a>
                   <a href={orderDetails.transform_pdf} className='btn btn-dark btn-sm d-inline-block m-2' target='_blank'  >Download Translate <i class="fa-solid fa-print ms-4"></i></a>
-                  {/* <a href={orderDetails.invoice_VodafoneCash?.secure_url} className='btn btn-dark btn-sm' target='_blank' >Download Vodafone Cash <i class="fa-solid fa-image ms-4"></i></a> */}
-                  <a href={orderDetails.invoice_VodafoneCash} className='btn btn-dark btn-sm' target='_blank' >Download Vodafone Cash <i class="fa-solid fa-image ms-4"></i></a>
+                  <a href={orderDetails.invoice_VodafoneCash?.secure_url} className='btn btn-dark btn-sm' target='_blank' >Download Vodafone Cash cloudinary <i class="fa-solid fa-image ms-4"></i></a>
+                  {/* <a href={orderDetails.invoice_VodafoneCash} className='btn btn-dark btn-sm' target='_blank' >Download Vodafone Cash  <i class="fa-solid fa-image ms-4"></i></a> */}
                </div>
 
                <div className="btn-group btn-group-sm w-75 m-auto mt-4" role="group" >

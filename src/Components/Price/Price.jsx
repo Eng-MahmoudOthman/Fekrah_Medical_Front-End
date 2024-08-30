@@ -63,7 +63,8 @@ export default function Price() {
                            <div className="col-3 col-md-2 card_item " key={ele._id}>
                               <Link to={`/addTest/${ele._id}`}>
                                     <div className="div_image text-center m-auto bg-light-subtle">
-                                       <img src={ele.logo} alt="image" className='w-100 rounded-circle p-2'/>
+                                       <img src={ele.logo?.secure_url} alt="image" className='w-100 rounded-circle p-2'/>
+                                       {/* <img src={ele.logo} alt="image" className='w-100 rounded-circle p-2'/> */}
                                     </div>
                                     <h6 className='fw-bold main-color text-center mt-2'>{ele.name}</h6>
                               </Link>
